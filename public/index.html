@@ -1,4 +1,4 @@
-<html ng-app>
+<html ng-app="calculeteApp">
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -26,9 +26,11 @@
     <!-- Twitter Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-    <script src="assets/scripts/main.js"> </script>
+	<!-- App-specific scripts -->
+    <script src="assets/main.js"> </script>
+    <script src="assets/components/start/start.controller.js"></script>
 </head>
 <body>
-	<div class="wrapper">Initial text</div>
+	<div class="wrapper" ng-view>Initial text</div>
 </body>
 </html>
