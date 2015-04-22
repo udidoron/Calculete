@@ -1,0 +1,32 @@
+/* Style additions courtesy of HTML5Boilerplate Responsive */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+body {
+	background-color: #0B89E6;
+	color: white;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 4% 10%;
+    background-color: white;
+    color: #0B89E6;
+    height: 86%;
+}
