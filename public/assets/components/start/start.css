@@ -10,11 +10,20 @@
 	align-items: center;
 }
 
-.container {
+.holder {
 	background-color: #0B89E6;
 	color: white;
 }
 
 #headerText {
 	font-size: 5vmin;
+}
+
+.choiceBtn {
+	background-color: #0B89E6;
+	color: white;
+	width: 50%;
+	height: 10%;
+	margin: 1% 25%;
+	font-size: 2vmin;
 }
