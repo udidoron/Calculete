@@ -47,26 +47,42 @@
 
 .text-label-inner-text {
 	margin: auto;
-	font-size: 2vm; /* IE10 */
+	font-size: 2vm; 
 	font-size: 2vmin;
 }
 
-#input[type="radio"] {
+#easyDifficulty {
 	display: none;
 }
 
-#input[type="radio"] + label {
-	display: inline-block;
+label.radio-label {
+	display: flex;
 	height: 10%;
 	width: 20%;
 	text-align: center;
-	display: flex;
 	border: 1px solid black;
 	border-radius: 15px;
 }
 
-#input[type="radio"] + label span {
-	font-size: 2vm; /* IE10 */
+label.radio-label span {
+	font-size: 2vm; 
 	font-size: 2vmin;
 	margin: auto;
 }
+
+/*#input[type="radio"]+label {
+	display: inline-block;
+	height: 10%;
+	width: 20%;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 15px;
+}*/
+
+/*
+#input[type="radio"] + label span {
+	font-size: 2vm; 
+	font-size: 2vmin;
+	
+}
+*/
