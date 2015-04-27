@@ -16,6 +16,7 @@
 }
 
 #headerText {
+	font-size: 5vm; /* IE10 */
 	font-size: 5vmin;
 }
 
@@ -25,5 +26,47 @@
 	width: 50%;
 	height: 10%;
 	margin: 1% 25%;
+	font-size: 2vm; /* IE10 */
 	font-size: 2vmin;
+}
+
+#difficultyChoice {
+	margin: 2% 25%;
+}
+
+.text-label {
+	background-color: #4C03F2;
+	color: white;
+	height: 10%;
+	width: 20%;
+	text-align: center;
+	display: flex;
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+
+.text-label-inner-text {
+	margin: auto;
+	font-size: 2vm; /* IE10 */
+	font-size: 2vmin;
+}
+
+#input[type="radio"] {
+	display: none;
+}
+
+#input[type="radio"] + label {
+	display: inline-block;
+	height: 10%;
+	width: 20%;
+	text-align: center;
+	display: flex;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+#input[type="radio"] + label span {
+	font-size: 2vm; /* IE10 */
+	font-size: 2vmin;
+	margin: auto;
 }

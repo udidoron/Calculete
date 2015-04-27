@@ -2,7 +2,8 @@ var app = angular.module("calculeteApp", ["ngRoute", "ngAnimate"]);
 
 
 /** Route configuration */
-app.config(["$routeProvider", function($routeProvider) {
+app.config(["$routeProvider", "$locationProvider", 
+	function($routeProvider, $locationProvider) {
 	$routeProvider.
 		when("/", {
 			templateUrl: "assets/components/start/start.html",
@@ -19,4 +20,6 @@ app.config(["$routeProvider", function($routeProvider) {
 		otherwise({
 			redirectTo: "/"
 		});
+
+	$locationProvider.html5Mode(true);
 }]);
